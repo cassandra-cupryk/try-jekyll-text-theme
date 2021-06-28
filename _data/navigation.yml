@@ -1,0 +1,124 @@
+header:
+  - titles:
+      en      : &EN       Blog
+      zh-Hans : &ZH_HANS  博客
+    url: /blog
+
+  - titles:
+      # @start locale config
+      en      : &EN       Archive
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  归档
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  歸檔
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      ko      : &KO       아카이브
+      ko-KR   : *KO
+      fr      : &FR       Archives
+      fr-BE   : *FR
+      fr-CA   : *FR
+      fr-CH   : *FR
+      fr-FR   : *FR
+      fr-LU   : *FR
+      # @end locale config
+    url: /archive
+
+  - titles:
+      # @start locale config
+      en      : &EN       About
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  关于
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  關於
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      ko      : &KO       소개
+      ko-KR   : *KO
+      fr      : &FR       À propos
+      fr-BE   : *FR
+      fr-CA   : *FR
+      fr-CH   : *FR
+      fr-FR   : *FR
+      fr-LU   : *FR
+      # @end locale config
+    url: /about
+
+Cookbook:
+  - title:      Cookbook
+    url:        /archive.html?tag=cookbook
+    children:
+      - title:  Linux-cookbook
+        url:    /2019/02/06/Linux-cookbook
+      - title:  Git-cookbook
+        url:    /2019/02/10/Git-cookbook
+      - title:  Tmux-cookbook
+        url:    /2019/06/20/Tmux-cookbook
+      - title:  Vim-cookbook
+        url:    /2019/08/03/Vim-cookbook
+
+Paper-read:
+  - title:      Text2Image
+    url:        /archive.html?tag=text2image
+    children:
+      - title:  Object-driven Text-to-Image Synthesis via Adversarial Training
+        url:    /2019/07/16/ObjGAN
+      - title:  Image generation from scene graphs
+        url:    /2019/07/13/Sg2im
+      - title:  Semi-parametric Image Synthesis
+        url:    /2019/05/28/Semi-param_img_syn
+      - title:  Text to scene
+        url:    /2019/05/22/Text_to_scene
+      - title:  StoryGAN
+        url:    /2019/07/14/storyGAN
+      - title:  Learning where and what to draw
+        url:    /2019/05/18/Text_to_image-2
+      - title:  Generative Adversarial Text to Image Synthesis
+        url:    /2019/05/11/Text_to_image-1
+
+  - title:      Video
+    url:        /archive.html?tag=video
+
+Poker:
+  - title:      Poker
+    url:        /archive.html?tag=poker
+    children:
+      - title:  Littel Green Book Chapter 1
+        url:    /2020/07/28/green-book-1
+      - title:  Littel Green Book Chapter 2
+        url:    /2020/07/29/green-book-2
+
+"Computer Graphics":
+  - title:      "Computer Graphics"
+    url:        "/archive.html?tag=computer graphics"
+    children:
+      - title:  Overview
+        url:    /2020/08/10/cg-1
+      - title:  Linear Algebra
+        url:    /2020/08/11/cg-2
+      - title:  Transformation
+        url:    /2020/08/15/cg-3
+      - title:  Rasterization
+        url:    /2020/08/19/cg-4
+      - title:  Shading
+        url:    /2020/09/02/cg-5
+      - title:  Texture
+        url:    /2020/09/07/cg-6
+      - title:  Geometry
+        url:    /2020/11/19/cg-7
+      - title:  Ray Tracing
+        url:    /2020/11/25/cg-8
+      - title:  Advanced Ray Tracing
+        url:    /2020/12/03/cg-9
+      - title:  Material
+        url:    /2020/12/20/cg-10
